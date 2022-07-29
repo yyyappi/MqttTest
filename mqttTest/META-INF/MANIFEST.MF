@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.paho.client.mqttv3
+Built-By: genie.paho
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Vendor: %bundle.provider
+Import-Package: javax.net;resolution:=optional,javax.net.ssl;resolutio
+ n:=optional
+Export-Package: org.eclipse.paho.client.mqttv3;version="1.2.3",org.ecl
+ ipse.paho.client.mqttv3.logging;version="1.2.3",org.eclipse.paho.clie
+ nt.mqttv3.persist;version="1.2.3",org.eclipse.paho.client.mqttv3.util
+ ;version="1.2.3"
+Bundle-Name: %bundle.name
+Bundle-Version: 1.2.3
+Bundle-Localization: bundle
+Created-By: Apache Maven 3.6.3
+Build-Jdk: 1.8.0_202
+
