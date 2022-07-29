@@ -54,7 +54,7 @@ public class MqttPublisher {
 
 	public static void main(String[] args) {
 		MqttPublisher publisher=new MqttPublisher("localhost","test/lol");
-		publisher.publish("testfromjava");
+		publisher.publish("READ:RFID command from java");
 	}
 
 
